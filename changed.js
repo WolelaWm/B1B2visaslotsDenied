@@ -9,10 +9,10 @@ require("dotenv").config();
 
 const botToken = process.env.BOT_TOKEN;
 const chatId = process.env.CHAT_ID;
-const loginUrl = "https://ais.usvisa-info.com/en-et/niv/users/sign_in";
+const loginUrl = "https://ais.usvisa-info.com/en-et/iv/users/sign_in/iv";
 const scrapeUrl =
-  "https://ais.usvisa-info.com/en-et/niv/schedule/63182080/payment";
-const username = "wabcdefghij29w@gmail.com";
+  "https://ais.usvisa-info.com/en-et/iv/schedule/73195101/payment";
+const username = "wabcdefghij37w@gmail.com";
 const password = process.env.PASSWORD;
 
 // Function to send messages to Telegram
